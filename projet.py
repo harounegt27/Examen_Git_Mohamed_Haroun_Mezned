@@ -5,5 +5,11 @@ def somme(T):
     return S
 
 Data = [1, 2, 3]
-Som = sum(Data)
-print("La somme est : ",Som)
+if Data:
+    print("La somme est : ",sum(Data))
+    print("Le min est : ",min(Data))
+    print("Le max est : ",max(Data))
+else:
+    print("Liste vide")
+
+
